@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-size: 100%;
+    background: rgba(255, 0, 242, 0.377);
+}
+
+
+.cabechalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24;
+}
+.cabechalho-maquina-de-costura{
+    height: 70px;
+    margin: 20px;
+}
+
+.select{
+    background-color: #d21ea570;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    
+}
+.img-whatsapp{
+    height: 70px;
+    margin:20px ;
+}
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.conteudo-pricipal{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+
+}
+.conteudo-esrcito{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    color: #d21ea570;
+}
+h1{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 80px;
+    color: #d21ea5;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d21ea570;
+}
+.conteudo-secundario{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+gap: 10px;
+
+}
+.img-camisa{
+    height: 80px;
+
+}
+.rodape{
+    padding: 30px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.rodape-conteudo{
+    text-decoration: underline overline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d21ea5;
+
+}
+.logo-pix{
+    height: 60px;
+}
+
+@media screen and (max-width:800px){
+    body{
+        width: 300px;
+        padding: 40px;
+    }
+    .conteudo-esrcito{
+        margin-left: 250px;
+        margin-top: 300px;
+    }
+    h2{
+        margin-left: 40px;
+    }
+}
+
+
+
