@@ -96,18 +96,30 @@ gap: 10px;
 }
 
 @media screen and (max-width:800px){
+
     body{
-        width: 300px;
-        padding: 40px;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
     }
-    .conteudo-esrcito{
-        margin-left: 250px;
-        margin-top: 300px;
+    .conteudo-pricipal{
+        align-items: center;
+        flex-direction: column;
     }
-    h2{
-        margin-left: 40px;
+    .conteudo-secundario{
+        align-items: center;
+        flex-direction: column;
     }
+    .conteudo-secundario{
+        padding-bottom: 300px;
+    margin-top: 50px;
+
+    
+    }
+
+
 }
+
 
 
 
